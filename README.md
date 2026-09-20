@@ -1,42 +1,42 @@
-# Dragon Ball Z Shin Budokai 2 — Korean Patch v0.8
+# 드래곤볼 Z 진무도회 2 — 한글 패치 v0.8
 
-This is an **xdelta3/VCDIFF** patch. It works with xdeltaUI.
+이 파일은 **xdelta3/VCDIFF** 형식의 한글 패치입니다. xdeltaUI로 적용할 수 있습니다.
 
-## Required source ISO
+## 필요한 원본 ISO
 
-Put the clean source ISO in the same folder as the patch and rename it exactly:
+정상 원본 ISO를 패치 파일과 같은 폴더에 넣고, 파일 이름을 아래와 같이 정확하게 맞춥니다.
 
 `Dragon Ball Z Shin Budokai 2.iso`
 
-Required SHA-256:
+필요한 SHA-256:
 
 `471C3C48E95C92779D7B8C9E8A8085AB9D340E093B8F70CE71824A9FB2B4C2F6`
 
-Source size: `508,166,144` bytes.
+원본 크기: `508,166,144` bytes
 
-## Apply with xdeltaUI
+## xdeltaUI 적용 방법
 
-1. Open xdeltaUI.
-2. In **Patch**, select `DBZ_Shin_Budokai_2_Korean_v0.8.xdelta`.
-3. In **Source File**, select the clean source ISO above.
-4. In **Output File**, choose `Dragon Ball Z Shin Budokai 2 Korean v0.8.iso`.
-5. Click **Apply Patch**.
+1. xdeltaUI를 실행합니다.
+2. **Patch** 항목에서 `DBZ_Shin_Budokai_2_Korean_v0.8.xdelta`를 선택합니다.
+3. **Source File** 항목에서 위 해시와 일치하는 원본 ISO를 선택합니다.
+4. **Output File** 항목에서 출력 파일 이름과 저장 위치를 정합니다. 권장 이름은 `Dragon Ball Z Shin Budokai 2 Korean v0.8.iso`입니다.
+5. **Apply Patch**를 눌러 패치를 적용합니다.
 
-Alternatively, place `xdelta3.exe` from xdeltaUI in this release folder and run `Apply_Korean_Patch.bat`.
+또는 xdeltaUI에 포함된 `xdelta3.exe`를 이 폴더에 넣은 뒤 `Apply_Korean_Patch.bat`을 실행해도 됩니다.
 
-## Verification
+## 적용 후 검증
 
-Expected SHA-256 for the finished ISO:
+완성된 ISO의 SHA-256은 아래 값과 일치해야 합니다.
 
 `6D58D8694FC83180193F20B4ED83AAA1A185CA138B59B47B7309CEBB4831217F`
 
-Expected size: `508,166,144` bytes.
+완성 ISO 크기: `508,166,144` bytes
 
-## v0.8 contents
+## v0.8 반영 내용
 
-- Prior Korean UI, battle menu, team formation, booster album, system text changes.
-- Field results, profile statistics, card edit, game settings, confirmation buttons.
-- 16 camera preview images: Korean angle label and Korean character names.
-- Packaged from the statically verified QA43 build as version 0.8.
+- 기존 한글 UI, 전투 메뉴, 팀 편성, 부스터 앨범, 시스템 텍스트.
+- 필드 결과, 프로필 능력치, 카드 편집, 게임 설정, 확인 버튼.
+- 카메라 미리보기 16개: 각도 라벨과 캐릭터 이름 한국어 보정.
+- 정적 검증을 마친 QA43 빌드를 배포 버전 v0.8로 정리.
 
-This release is statically verified. It has not been runtime-tested in an emulator during this build step.
+이 배포본은 정적 검증을 통과했습니다. 이번 빌드 단계에서는 에뮬레이터·실기 런타임 검증을 하지 않았습니다.
